@@ -1,7 +1,7 @@
 # Itzel Ortiz Tellez
 ## Computadoras y programacion grupo 1157
 ## Semestre 2020-I
-![Logo FES Aragon](fesa1.jpg)
+![Logo FES Aragon](fesa12.jpg)
 
 
 Aqui va una **descripcion** del *repositorio*
