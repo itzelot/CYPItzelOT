@@ -1,21 +1,18 @@
 cuepar = 0
 sumpar = 0
 sumimp = 0
+propar = 0
 I = 1
-num = int(input("Ingresa un numero entero:"))
-for I in range(1,num,271):
-    if I <= 270:
-        if num <> 0:
-            if (-1**num)>0:
-                 if num == 2*I:
-                    cuepar += 1
-                    sumpar = sumpar+(2*I)
-                    print(f"{sumpar}")
-            else:
-                if num == (2*I)-1:
-                    sumimp = sumimp+(2*I-1)
-                    print(f"{sumimp}")
-                
-        
-
-
+for I in range(1,271,1):
+    num = int(input("Ingresa un numero entero:"))
+    if num % 2 == 0:
+        sumpar += num
+        cuepar += 1
+        I += 1
+        propar = sumpar/cuepar
+    else:
+        sumimp += num
+        I += 1
+print(f"El promedio es de:{propar}")
+print(f"La suma impar es de:{sumimp}")
+print("FIN DEL PROGRAMA")
