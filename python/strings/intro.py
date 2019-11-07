@@ -1,4 +1,4 @@
-nombre = "Areli Vázquez"
+nombre = "Itzel Ortiz"
 print(nombre)
 print(nombre[0])
 print(nombre[8])
